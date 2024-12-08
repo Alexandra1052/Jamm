@@ -1,0 +1,49 @@
+.bmi-card{
+    padding: 5px;
+    margin: 0 auto;
+   
+    max-width: fit-content;
+   transform: translate(0,50%);
+   box-shadow: 0 15px 25px rgb(255, 255, 255);
+   border-radius:4px;
+   backdrop-filter: blur(14px);
+   background-color: #ffffff48;
+   font-family:Cambria,'Palatino Linotype','Book Antiqua','URW Palladio L',serif;
+}
+h1 ,h2 , h3, h4,.txt{
+    background-color: #f3ec78;
+    background-image: linear-gradient(#b32a00, #290811);
+    background-size: 100%;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+  
+}
+input{
+    background: none;
+    border-radius: 10px;
+    border : 1px auto;
+    border-color: #ffff;
+    padding : 5px;
+    box-shadow: 0 0;
+    margin: 0.5rem;
+   color: rgb(68, 17, 4);
+}
+button{
+    cursor: pointer;
+    background: transparent;
+    border: 1px solid #ffffff;
+    padding: 10px;
+    margin:5px;
+    margin-left: 0;
+    outline: none;
+    transition: 0.5s ease-in-out;
+    color: rgb(68, 17, 4);
+    border-radius: 10px;
+    
+}
+button:hover {
+    transition: 0.5s ease-in-out;
+    background: rgb(230, 90, 113);
+  }

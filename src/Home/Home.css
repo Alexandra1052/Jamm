@@ -1,0 +1,28 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.button_home{
+    margin: 1cm auto;
+    padding: 1rem;
+    
+}
+.link{
+    text-decoration: none;
+    color:#381414e0;
+    padding: 10px;
+}
+
+   .bmi-card{
+      margin-top: 1cm;
+        padding: 10px;
+        
+        max-width: fit-content;
+       transform: translate(0,50%);
+       box-shadow: 0 15px 25px rgb(255, 255, 255);
+       border-radius:4px;
+       backdrop-filter: blur(14px);
+       background-color: #ffffff48;
+       font-family:Cambria,'Palatino Linotype','Book Antiqua','URW Palladio L',serif;
+    }
